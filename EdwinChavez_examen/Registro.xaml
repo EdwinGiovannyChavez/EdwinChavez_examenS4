@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EdwinChavez_examen.Registro">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="#2196F3" Padding="4" CornerRadius="0">
+                <Label Text="REGISTRO COSTO DEL CURSO" HorizontalTextAlignment="Center" TextColor="White" FontSize="25"/>
+            </Frame>
+
+            <Label x:Name="lblUser" Text="Usuario Conectado:" FontSize="18"/>
+            <Label Text="Nombre:" FontSize="17"></Label>
+            <Entry x:Name="txtNombre" BackgroundColor="Azure"></Entry>
+            <Label Text="Monto Inicial:" FontSize="17"></Label>
+            <Entry x:Name="txtMonto" BackgroundColor="Azure" Keyboard="Numeric"></Entry>
+            <Label Text="Pago Mensual:" FontSize="17"  ></Label>
+            <Entry x:Name="txtMensual" BackgroundColor="Azure" Keyboard="Numeric"></Entry>
+            <Button x:Name="btnGuardar"
+                    Text="Guardar Datos"
+                   Clicked="btnGuardar_Clicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

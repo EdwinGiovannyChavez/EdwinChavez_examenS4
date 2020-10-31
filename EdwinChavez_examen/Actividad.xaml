@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EdwinChavez_examen.Actividad">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="#2196F3" Padding="4" CornerRadius="0">
+                <Label Text="ACTIVIDAD DE CURSO " HorizontalTextAlignment="Center" TextColor="White" FontSize="25"/>
+            </Frame>
+            <Label x:Name="txtNombre" Text="Nombre:" FontSize="17"></Label>
+
+            <Label x:Name="txtMonto" Text="Monto:" FontSize="17"></Label>
+
+            <Label x:Name="txtMensual" Text="Pago Mensual:"  FontSize="17"></Label>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

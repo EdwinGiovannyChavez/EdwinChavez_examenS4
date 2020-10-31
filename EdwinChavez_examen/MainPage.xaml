@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EdwinChavez_examen.MainPage">
+
+    <StackLayout>
+        <Image Aspect="AspectFill" Source="https://sbsconsulting.com.ec/wp-content/uploads/2018/01/LOGO-UISRAEL-768x209.png" HorizontalOptions="EndAndExpand"></Image>
+
+        <Entry x:Name="txtUsers"
+               Placeholder="USUARIO"
+               ></Entry>
+
+        <Entry x:Name="txtPassword"
+               Placeholder="CONTRASEÑA"
+               IsPassword="True"></Entry>
+
+        <Button x:Name="btnRegistros"
+                Text="ACCEDER"
+                Clicked="btnRegistro_Clicked"
+                HeightRequest="60"
+                BackgroundColor="AntiqueWhite"></Button>
+        <Frame BackgroundColor="#2196F3" Padding="4" CornerRadius="0">
+
+            <Label Text="CURSOS ONLINE " HorizontalTextAlignment="Center" TextColor="White" FontSize="25" HorizontalOptions="FillAndExpand" />
+
+        </Frame>
+        
+
+    </StackLayout>
+
+</ContentPage>
